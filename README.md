@@ -30,7 +30,7 @@ Permite que alunos façam upload de uma imagem original e de sua própria implem
 
 ```
 root/
-├── sistema-pdi-backend/       # Backend (Node.js + Express + scripts Python)
+├── sistema-pdi-back-end/       # Backend (Node.js + Express + scripts Python)
 │   ├── py-algorithms/         # Scripts Python (OpenCV)
 │   ├── routes/                # Definição de rotas Express
 │   ├── services/              # pythonRunner.js, compareService.js
@@ -40,7 +40,7 @@ root/
 │   ├── uploads/               # Uploads de usuários (auto)
 │   ├── .env                   # Variáveis de ambiente
 │   └── server.js              # Ponto de entrada
-└── sistema-pdi-frontend/      # Frontend (Vue.js)
+└── sistema-pdi-front-end/      # Frontend (Vue.js)
     ├── src/
     │   ├── components/        # Header, Footer, FormInput
     │   ├── views/             # home-page, login, register
@@ -87,7 +87,7 @@ root/
 ### Backend
 
 ```bash
-cd sistema-pdi-backend
+cd sistema-pdi-back-end
 npm install
 
 # (Opcional) Criar ambiente virtual Python
@@ -111,7 +111,7 @@ npm run dev  # ou node server.js
 ### Frontend
 
 ```bash
-cd sistema-pdi-frontend
+cd sistema-pdi-front-end
 npm install
 npm run serve
 ```
